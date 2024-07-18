@@ -14,7 +14,6 @@ var kErrorDomain = "Error"
 var kDefaultErrorCode = 1234
 
 class GeneralResponse<T : Codable> : Codable {
-//    var code: Int = 0
     var message : String?
     var data    : T?
     var token   : String?
@@ -47,7 +46,6 @@ class GeneralResponse<T : Codable> : Codable {
 }
 
 class GeneralWitoutData : Codable {
-//    var code: Int = 0
     var message : String?
     var token   : String?
     var status  : Int?

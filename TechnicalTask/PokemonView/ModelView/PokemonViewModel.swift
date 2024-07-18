@@ -16,7 +16,6 @@ class PokemonViewModel : NSObject, ObservableObject {
         APIService.shared.requestWithGet(resourceType: .pokemonAPI, value: value, requestType: .get, completion: { (result:Result<PokemonModel?, Error>) in
             switch result {
             case .success(let response):
-                //AppUtility.shared.printToConsole(response as Any)
                 guard let resData = response else {
                     return
                 }
@@ -34,7 +33,6 @@ class PokemonViewModel : NSObject, ObservableObject {
         APIService.shared.requestWithGet(resourceType: .pokemonAPI, value: value, requestType: .get, completion: { (result:Result<PokemonDetailsModel?, Error>) in
             switch result {
             case .success(let response):
-                //AppUtility.shared.printToConsole(response as Any)
                 guard let resData = response else {
                     return
                 }
