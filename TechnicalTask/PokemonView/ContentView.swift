@@ -29,7 +29,6 @@ struct ContentView: View {
                         }
                     }
                     .onAppear(perform: {})
-                    //.searchable(text: $searchtxt, prompt: "Search")
                     HStack {
                         Button(action: {}) {
                             Text("Previous")
