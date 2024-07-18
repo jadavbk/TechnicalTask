@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FF7548CC-1734-4650-A278-FF5ECC7BC0A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7F98BF3-C480-4BD0-8D00-DD6C68DBE117"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTask/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getSearchedPokemon(strSearch:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7F98BF3-C480-4BD0-8D00-DD6C68DBE117 - b04666cf4651499f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TechnicalTask.ContentView.getPokemonSearched() -&gt; ()"
+                  moduleName = "TechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bharatjadav/Study/3SC%20Task/TechnicalTask/TechnicalTask/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "502">
+               </Location>
+               <Location
+                  uuid = "C7F98BF3-C480-4BD0-8D00-DD6C68DBE117 - 2edc1c527059c1e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TechnicalTask.ContentView.getSearchedPokemon(strSearch: Swift.String) -&gt; ()"
+                  moduleName = "TechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bharatjadav/Study/3SC%20Task/TechnicalTask/TechnicalTask/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
