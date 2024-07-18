@@ -88,6 +88,8 @@ extension ContentView {
     func getSearchedPokemon(strSearch: String) {
         self.viewModel?.getPokemonDetails(value: "/" + strSearch ,completion: { (success, error) in
             if success {
+                isHidePrevious = true
+                isHideNext = true
                 self.arrResult = [self.viewModel?.pokemonDetails?.species ?? ResultList.tempData()]
                 self.loadStatus = self.arrResult.count == 0 ? .isEmpty : .isAvailable
             }
