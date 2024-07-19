@@ -93,6 +93,11 @@ extension ContentView {
                 self.arrResult = [self.viewModel?.pokemonDetails?.species ?? ResultList.tempData()]
                 self.loadStatus = self.arrResult.count == 0 ? .isEmpty : .isAvailable
             }
+            else {
+                AppUtility.shared.showAlertWith("Search", "Data not found") { success in
+                    
+                }
+            }
         })
     }
 }
